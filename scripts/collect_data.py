@@ -10,7 +10,7 @@ hands = mp_hands.Hands(static_image_mode=False, max_num_hands=1, min_detection_c
 mp_drawing = mp.solutions.drawing_utils
 
 # CONFIGURATION: Change this for every new sign you record
-LABEL = "HELLO"  # Example: "HELLO", "THANK_YOU", "YES", "NO"
+LABEL = "THANK_YOU"  # Example: "HELLO", "THANK_YOU", "YES", "NO"
 DATA_PATH = "data/gestures.csv"
 
 cap = cv2.VideoCapture(0)
