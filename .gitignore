@@ -1,0 +1,20 @@
+# Python virtual environment
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Machine Learning & Data
+# Ignore the actual data files (uploading 10,000 CSV rows is messy)
+data/*.csv
+# Ignore large model files (GitHub has a 100MB limit per file)
+models/*.h5
+models/*.tflite
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
