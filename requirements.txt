@@ -1,0 +1,12 @@
+# Core AI & Vision
+mediapipe==0.10.32
+opencv-python==4.10.0.84
+tensorflow==2.16.1
+
+# Data Processing
+numpy==1.26.4
+pandas==2.2.2
+
+# Utilities
+scikit-learn==1.5.0
+matplotlib==3.9.0
