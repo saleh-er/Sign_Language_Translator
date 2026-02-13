@@ -7,11 +7,11 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout
 
 # 1. Load the data you collected
-if not os.path.exists('data/gestures.csv'):
-    print("Error: data/gestures.csv not found. Please run collect_data.py first!")
+if not os.path.exists('data/asl_data.csv'):
+    print("Error: data/asl_data.csv not found. Please run collect_data.py first!")
     exit()
 
-df = pd.read_csv('data/gestures.csv')
+df = pd.read_csv('data/asl_data.csv')
 X = df.iloc[:, :-1].values  # Landmark coordinates (x, y, z)
 y = df.iloc[:, -1].values   # Gesture names (labels)
 
